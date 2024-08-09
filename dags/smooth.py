@@ -15,3 +15,4 @@ def smooth():
     video = SmoothOperator(
         task_id="youtube_video"
     )
+smooth_dag = smooth()
