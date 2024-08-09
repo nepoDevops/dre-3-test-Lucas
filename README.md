@@ -34,6 +34,7 @@ Com base nas análises acima, optou-se pela arquitetura que oferece maior flexib
 **Comparação de Custos**
 
 Amazon MWAA: $624.17/mês
+
 Amazon EKS: $189.14/mês
 
 **Facilidade de Uso e Esforço Operacional**
