@@ -77,3 +77,14 @@ Esta arquitetura fornece um fluxo completo de monitoramento para uma aplicação
 Utilizando Prometheus e Grafana, obtém-se uma visualização das métricas de aplicação e infraestrutura.
 Amazon CloudWatch complementa isso com logs detalhados e eventos que são roteados por EventBridge para ações subsequentes.
 Com isso, a infraestrutura é capaz de monitorar, analisar e responder a eventos automaticamente, garantindo alta disponibilidade e desempenho.
+
+**Conclusão**
+Ao longo desse teste alguns pontos foram revelados para que a infraestrutura e o serviço funcione de uma forma mais leve, a primeira é a segregação de serviços, manter apartados os serviços garante uma melhor gestão e configuração, a segunda é o uso de serviços gerenciados, por vez pode ter uma configuração mais facil porem é mais caro e por ultimo, sempre manter uma monitoria pró ativa para garantir alta disponibilidade e antever os erros.
+
+
+**Referências**
+https://docs.aws.amazon.com/mwaa/latest/migrationguide/mwaa-architecture.html
+https://awslabs.github.io/data-on-eks/docs/blueprints/job-schedulers/self-managed-airflow
+https://calculator.aws/#/estimate?id=89509f4afee9f6e745ddd2cb7a40066210b2ab78
+https://noise.getoto.net/tag/amazon-managed-workflows-for-apache-airflow-amazon-mwaa/
+https://github.com/aws-ia/terraform-aws-mwaa
