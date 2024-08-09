@@ -82,7 +82,8 @@ Com isso, a infraestrutura é capaz de monitorar, analisar e responder a eventos
 Ao longo desse teste alguns pontos foram revelados para que a infraestrutura e o serviço funcione de uma forma mais leve, a primeira é a segregação de serviços, manter apartados os serviços garante uma melhor gestão e configuração, a segunda é o uso de serviços gerenciados, por vez pode ter uma configuração mais facil porem é mais caro e por ultimo, sempre manter uma monitoria pró ativa para garantir alta disponibilidade e antever os erros.
 
 
-**Referências**
+**Referências :**
+
 https://docs.aws.amazon.com/mwaa/latest/migrationguide/mwaa-architecture.html
 
 https://awslabs.github.io/data-on-eks/docs/blueprints/job-schedulers/self-managed-airflow
