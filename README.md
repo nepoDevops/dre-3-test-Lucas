@@ -84,7 +84,11 @@ Ao longo desse teste alguns pontos foram revelados para que a infraestrutura e o
 
 **Referências**
 https://docs.aws.amazon.com/mwaa/latest/migrationguide/mwaa-architecture.html
+
 https://awslabs.github.io/data-on-eks/docs/blueprints/job-schedulers/self-managed-airflow
+
 https://calculator.aws/#/estimate?id=89509f4afee9f6e745ddd2cb7a40066210b2ab78
+
 https://noise.getoto.net/tag/amazon-managed-workflows-for-apache-airflow-amazon-mwaa/
+
 https://github.com/aws-ia/terraform-aws-mwaa
